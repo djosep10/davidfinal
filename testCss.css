@@ -1,0 +1,177 @@
+/*The font-family is helvetica
+Line spacing for margins is 1.5, same with text
+color of text is black */
+
+#wrapper{
+width:100%;
+height: 100%;
+margin:auto;
+margin-left: auto;
+background-color: #2C365E;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+h1{
+margin: auto;
+padding: 40px;
+text-align: center;
+color: #EEF0F2;
+font-family: helvetica;
+background-image: url(spotifiy image.jpg);
+}
+
+nav{
+display: inline-block;
+clear: left;
+margin:0 auto;
+float: left;
+width: 200px;
+height:100%;
+padding-left:10px;
+color: #EEF0F2;
+
+}
+/*controls style and color and text alignment */
+nav ul{
+list-style-type: none;
+color: white;
+font-family: helvetica;
+font-size:14px;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+	
+}
+nav li {
+display: block;
+line-height:2;
+font-family: Helvetica;
+color: white;
+padding: 20px;
+}
+ul{
+	color:#EEF0F2;
+}
+
+li.list1{
+	border-style: solid;
+	border-color:#EEF0F2;
+}
+
+a:hover{
+	color: #BFAB25;
+}
+
+
+main{
+margin-left:160px;
+padding: 15px;
+background-color: #EEF0F2;
+width: 80%;
+line-height:2;
+}
+
+footer{
+float: bottom;
+text-align: center;
+font-style: italic;
+color: #FFFFFF;
+background-color: #112e51;
+}
+
+/*
+This is the basis for all of the code used for the float 
+and the footer sections. for consistancy purposes
+
+#wrapper{
+width:100%;
+height: 100%;
+margin:auto;
+margin-left: auto;
+background-color: #112e51;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header is for the title of webpage chnage accordingly
+
+h1{
+margin: auto;
+padding: 60px;
+text-align: center;
+color: #FFFFFF;
+font-family: helvetica;
+
+nav used is for the left list of sites
+
+nav{
+display: inline-block;
+clear: left;
+margin:0 auto;
+float: left;
+width: 200px;
+height:100%;
+padding-left:10px;
+color: white;
+}
+
+nav ul{
+list-style-type: none;
+color: white;
+font-family: helvetica;
+font-size:14px;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+	
+}
+nav li {
+display: block;
+line-height:2;
+font-family: Helvetica;
+color: white;
+padding: 20px;
+}
+ul{
+	color:white;
+}
+
+li.list1{
+	border-style: solid;
+	border-color:white;
+}
+
+main is used for main content
+
+main{
+margin-left:160px;
+padding: 15px;
+background-color: white;
+width: 80%;
+line-height:2;
+
+
+
+}
+
+
+footer is used for copyright shit
+
+footer{
+float: bottom;
+text-align: center;
+font-style: italic;
+color: #FFFFFF;
+background-color: #112e51;
+}
+*/
